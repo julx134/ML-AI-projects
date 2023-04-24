@@ -2,7 +2,7 @@
 This is a monorepo of all the machine learning and artificial intelligence projects I implemented:
 
 :link: [Univariate Linear Regression](https://colab.research.google.com/drive/1r9ftQFq7KBOjxpYKel36RBpa4AcPKmHo?usp=sharing)<br>
-:link: [Logistic Regression] (https://colab.research.google.com/drive/1pw4SnIS5afODQ1xexQEByaoQVogK8Fb0?usp=sharing)
+:link: [Logistic Regression](https://colab.research.google.com/drive/1pw4SnIS5afODQ1xexQEByaoQVogK8Fb0?usp=sharing)
 
 ## :pencil:Univariate-Linear-Regression
 
