@@ -2,8 +2,8 @@
 This is a monorepo of all the machine learning and artificial intelligence projects I implemented:
 
 :link: [Univariate Linear Regression](https://colab.research.google.com/drive/1r9ftQFq7KBOjxpYKel36RBpa4AcPKmHo?usp=sharing)<br>
-:link: [Logistic Regression](https://colab.research.google.com/drive/1pw4SnIS5afODQ1xexQEByaoQVogK8Fb0?usp=sharing)
-:link: [Clustering: K-Means, DBSCAN, Nearest-Neighbour](https://colab.research.google.com/drive/1ShRCx4i0MJudgj8CkVGM2hK3t8huMhX3?usp=sharing)
+:link: [Logistic Regression](https://colab.research.google.com/drive/1pw4SnIS5afODQ1xexQEByaoQVogK8Fb0?usp=sharing) <br>
+:link: [Clustering: K-Means, DBSCAN, Nearest-Neighbour](https://colab.research.google.com/drive/1ShRCx4i0MJudgj8CkVGM2hK3t8huMhX3?usp=sharing)<br>
 :link: [Neural Network](https://colab.research.google.com/drive/1qx6hqz6geEtOo9nt5VECud7mXfud3402?usp=sharing)
 
 ## :pencil:Univariate-Linear-Regression
