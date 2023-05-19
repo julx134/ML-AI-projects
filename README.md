@@ -36,3 +36,16 @@ $$J(\theta) = -\frac{1}{m}\sum_m^i(y^i\ log(\sigma(z))+(1-y^i)(log(1-\sigma(z)))
 ### Results
 The following results show the difference in the batch and mini-batch implemented approached vs. the Scikit API
 ![](sample.jpg)
+
+
+## :pencil:Clustering
+
+We explore introductory unsupervised learning concepts by implementing several clustering methods such as K-Means, Nearest Neighbour, and DBScan Clustering. 
+
+###
+We use the heart disease dataset to extract the **sbp** and **tobacco** features as independent and dependent variables accordingly. From there, we apply the clustering methods and compare the results with the SkLearn API.
+
+### Results
+![](k_means_cluster.JPG)
+![](nearest_neighbour_cluster.JPG)
+![](dbscan_cluster.JPG)
