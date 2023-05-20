@@ -19,7 +19,6 @@ $$m_{new}=m_{old}-\alpha\frac{\delta{E}}{\delta{m}}$$
 ![](/my_model.jpg)
 ![](/scikit_model.jpg)
 
-
 ## :pencil:Logistic-Regression
 
 This is an implementation of logistic regression on the classic heart disease classification problem.
@@ -40,7 +39,7 @@ The following results show the difference in the batch and mini-batch implemente
 
 ## :pencil:Clustering
 
-We explore introductory unsupervised learning concepts by implementing several clustering methods such as K-Means, Nearest Neighbour, and DBScan Clustering. 
+I explore the introductory unsupervised learning concepts by implementing several clustering methods such as K-Means, Nearest Neighbour, and DBScan Clustering. 
 
 ###
 We use the heart disease dataset to extract the **sbp** and **tobacco** features as independent and dependent variables accordingly. From there, we apply the clustering methods and compare the results with the SkLearn API.
@@ -49,3 +48,22 @@ We use the heart disease dataset to extract the **sbp** and **tobacco** features
 ![](k_means_cluster.JPG)
 ![](nearest_neighbour_cluster.JPG)
 ![](dbscan_cluster.JPG)
+
+## :pencil:Artificial Neural Network
+For this project, I used Keras' Sequential API to construct different structures/models of neural networks to observe how good the model is when it comes to changing the hyperparameters. For the dataset, I take 30,000 equal steps from -1 to 1 of the following function:
+
+$$y = 0.2x^4+2x^3+0.1x^2+10$$
+
+Then I constructed three different neural network models:
+![](neural_network.JPG)
+
+### Results
+The following results are shown in order from left to right:
+1. The function/dataset
+2. 3 dense layers, 1 output layer, ReLu activation function, and non-standardized input
+3. 1 dense layer, 1 output layer, ReLu actiavtion function, and non-standardized input
+4. 3 dense layers, 1 output layer, tanh activation function, and non-standardized input
+5. 3 dense layers, 1 output layer, ReLu activation function, and standardized input
+6. 3 dense layers, 1 output layer, tanh activation function, and standardized input
+
+![](neural_network_results.JPG)
